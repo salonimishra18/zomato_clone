@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js"
+      crossorigin="anonymous" ></script>
+    <title>FOOD</title>
+</head>
+<body>
+    <header class="body-header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#get-app">
+                     <span class="logo-icon" >
+                        <i class="fa-sharp fa-solid fa-mobile-screen-button"></i>
+                        <p class="get">Get the app</p>
+                     </span> 
+                     
+                 </a>
+            </div>
+            <div class="menu">
+                <ul class="navbar-menu">
+                    <li> <a href="./investar.html">Investor Relations</a></li>
+                    <li> <a href="./restaurent.html">Add restaurant</a> </li>
+                    <li id="login"> <a href="#">Login</a> </li>
+                    <li id="signup"> <a href="#">Sign Up</a> </li>
+                    
+                </ul>
+            </div>
+            
+                <div id="parent-div"  class="parent">
+
+                   <div id="loginPage" class="login-design">
+                         <div class="back">
+                          <i class="fa-sharp fa-solid fa-xmark close" id="close-btn"></i>
+                         </div>
+                         <h1 class="login-heading">Login</h1>
+                         <input id="userEmail"  class="enter-email"  type="text" name="Email" placeholder="Email" checked>
+                         <button id="btnsubmit"  class="button-24" role="button">Send One Time Password</button>
+                         <p class="other">or</p>
+                         <div class="other-box">
+                             <a href="">
+                                <span class="color-email">
+                                    <i class="fa-solid fa-envelope close"></i>
+                                    </span> 
+                                    <p class="message">Continue with Email</p>
+                             </a>
+                         </div>
+                         <div class="other-box">
+                         <a class="google" href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Faccounts.zomato.com%3Fid%3Dauth942134&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=442739719837.apps.googleusercontent.com&ss_domain=https%3A%2F%2Faccounts.zomato.com&prompt=select_account&fetch_basic_profile=true&gsiwebsdk=2&service=lso&o2v=1&flowName=GeneralOAuthFlow">
+                            <img  class="google-icon" src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="">
+                            <p class="message">Continue with Google</p>
+                         </a>
+                         </div>
+                         <h6 class="new">New to Zomato ?</h6>
+                         <a class="create-account" href="">Create account</a>
+                    
+                    </div>
+    
+              </div> 
+             <div class="parent-div">
+                <div id="signupPage" class="signup-design">
+                    <div class="return">
+                        <i class="fa-sharp fa-solid fa-xmark close-icon" id="close-page"></i>
+                    </div>
+                    <h1 class="sign-up">Sign up</h1>
+                    <div class="input-div">
+                        <input id="fullname" class=" input1" type="text" name="Name" placeholder="Full- Name" required>
+                        <input id="Email" class=" input1"  type="text" name="Email" placeholder="Email" checked>
+                    </div>
+                    <div class="checked">
+                        <input id="checked" class="checkbox" type="checkbox">
+                        <span class="checkbox-content">
+                            I agree to Zomato's <a class="color"  href="">Terms of Service, Privacy Policy</a>and <a class="color" href=""> Content Policies</a>
+                        </span>
+                    </div>
+                     <button  id="btn" class="button-24 btn" role="button">Create account</button>
+                     <p class="other">or</p>
+                    <div class="other-box set">
+                         <a class="google icon" href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Faccounts.zomato.com%3Fid%3Dauth942134&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=442739719837.apps.googleusercontent.com&ss_domain=https%3A%2F%2Faccounts.zomato.com&prompt=select_account&fetch_basic_profile=true&gsiwebsdk=2&service=lso&o2v=1&flowName=GeneralOAuthFlow">
+                            <img  class="google-icon " src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="">
+                            <p class="message">Continue with Google</p>
+                         </a>
+                    </div>
+                     <h6 class="account">Already have an account ?</h6>
+                     <a class="already-account" href="">Log in</a>
+                    
+                </div>
+             </div> 
+              
+              
+        </nav>
+        <div class="container">
+            
+            <div class="text"> 
+              <h1>zomato</h1>
+              <h2>Discover the best food & drinks in Bhopal</h2>
+            </div>
+            <div class="search-box">
+                <div class="location">
+                   <a class=".a" href="https://www.bing.com/ck/a?!&&p=b87cb16da4b5bc0cJmltdHM9MTY3MTMyMTYwMCZpZ3VpZD0zYjU0ZGY2Mi1lZTViLTY0NmQtMTg1NS1jZTk2ZWZhYzY1NjEmaW5zaWQ9NTQ1Mw&ptn=3&hsh=3&fclid=3b54df62-ee5b-646d-1855-ce96efac6561&psq=location&u=a1aHR0cHM6Ly9tYXBzLmdvb2dsZS5jby5pbi8_aGw9ZW4&ntb=1">
+                    <span class="location-icon">
+                        <i class="fa-sharp fa-solid fa-location-dot location-size"></i>
+                    </span>
+                    <input class="search-location" type="text" name="search" placeholder="Near Raymond Showroom, Zone-II, Maharana Pratap Nagar, Bhopal">
+              
+                   </a>  
+                </div>
+                <span  class="triangle">
+                    <i class="fa-sharp fa-solid fa-caret-down triangle-size">  |  </i>
+                </span>
+                <div class="search">
+                    <span class="search-icon">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass search-size"></i>
+                    </span>
+                    <input class="search-restaurent" type="text" name="search" placeholder="Search for restaurant,cuisine a dish">
+                </div>
+            </div>
+           
+         </div>   
+    </header>
+
+    <div id="empty"></div>
+    <!-- <h1>IMAGE</h1> -->
+   
+    <div class="content">
+        <div class="main-box">
+            <div class="box1">
+                <a href="./order.html">
+                     <div class="image1">
+                        <div class="online"> 
+                              <img src="https://tse2.mm.bing.net/th?id=OIP.B6gfELdn4BPTZN6gw3R14gHaE8&pid=Api&P=0" alt="Online Order" >                         </div>
+                    </div>
+
+                    <div class="order">
+                       <p class="p1">Order Online</p>
+                      <p> Stay home and order to your doorstep</p> 
+                    </div>
+                </a>
+            </div>
+            <div class="box2">
+                <a href="">
+                    <div class="image2">
+                        <div class="table">
+                            <img src="https://tse2.mm.bing.net/th?id=OIP.Ik9arFqePXKHz_pk4h19CAHaE8&pid=Api&P=0" alt="Dining"> 
+                        </div>
+                    </div>
+                     <div class="dining">
+                         <p class="p2">Dining</p>
+                       
+                        <p>View the city's favourite dining venues</p> 
+                    </div>
+                </a>
+            </div>
+            <div class="box3">
+                <a href="">
+                    <div class="image3">
+                        <div class="nightclub">
+                             <img src="https://tse3.mm.bing.net/th?id=OIP.xRNVnqQ31dhG9HSVk7p_5gHaE8&pid=Api&P=0" alt="club"> 
+                        </div>
+                    </div>
+                    <div class="clubs">
+    
+                        <p class="p3">Nightlife and Clubs</p>
+                        <p>Explore the city's top nightlife outlets</p>
+                        
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- <h1>Collection</h1> -->
+    <div class="div1">
+        <div class="collection">
+            <h1 class="h1">Collections</h1>
+            <h6 class="h6">Explore curated lists of top restaurants, cafes, pubs, and bars in Bhopal, based on trends
+            </h6>
+        
+                <a href="">
+                    <span >All collecetions in sagar
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </span>
+                </a>
+            
+        </div>
+        <div class="collection-content">
+            <div class="restaurent all-collection ">
+                <section class="restaurent-section all">
+                    <a href="">
+                         <div class="image-section">
+                            <img class="pic" src="https://media-cdn.tripadvisor.com/media/photo-s/15/01/4f/ab/best-cafe-n-pub-in-bhopal.jpg" alt="">
+                        </div> 
+                        <div class="visit-restaurent ">
+                            <section class="visit-section visit">
+                                <p class="para">Must visit restaurant in Sagar
+                                    <div class="place ">
+                                        <h6>21 places</h6>
+                                        <i class="fa-sharp fa-solid fa-play" size="5"></i>
+                                         
+                                        
+                                    </div>
+                                </p>
+                            </section>  
+                        </div>
+                    </a>
+                </section> 
+            </div>
+            <div class="rooftops all-collection">
+                <section class="rooftops-section all">
+                  <a href="">
+                       <div class="image-section">
+                          <img class="pic pic1"  src="https://th.bing.com/th/id/OIP.DpzELHlIAhHvzICU7QM8_AHaLH?pid=ImgDet&w=204&h=306&c=7" alt="">
+                      </div> 
+                      <div class="visit-rooftops ">
+                         <section class="section-cafes visit">
+                               <p class="para para1">Rooftops
+                                   <div class="place place1">
+                                    <h6>8 places</h6>
+                                    <i class="fa-sharp fa-solid fa-play" size="5"></i>
+
+
+                                    </div>
+                              </p>
+                         </section>  
+                      </div>
+                  </a>
+                </section> 
+            </div>
+            <div class="sweet all-collection">
+                <section class="sweet-section all">
+                  <a href="">
+                       <div class="image-section">
+                          <img class="pic pic2"  src="https://th.bing.com/th/id/OIP.tRnWqPGnMxbJdgeWC2wpkQHaLB?w=178&h=265&c=7&r=0&o=5&pid=1.7" alt="">
+                        
+                        </div>
+                      <div>
+                         <section class="section-sweetTooth visit">
+                          <p class="para para2">Sweet Tooth
+                              <div class="place place2">
+                                <h6>13 places</h6>
+                                <i class="fa-sharp fa-solid fa-play" size="5"></i>
+
+                              </div>
+                          </p>
+                         </section>  
+                      </div>
+                  </a>
+                </section> 
+            </div>
+            <div class="friendly all-collection">
+                <section class="friendly-section all">
+                  <a href="">
+                       <div class="image-section">
+                          <img class="pic pic3"  src="https://th.bing.com/th/id/OIP.sEH67yFQXYuwJz994-KnNwHaHa?w=210&h=201&c=7&r=0&o=5&pid=1.7" alt="">
+                        
+                      </div> 
+                      <div>
+                         <section class="section-pocket visit">
+                          <p class="para para3">Pocket Friendly
+                              <div class="place place3">
+                                <h6>18 places</h6>
+                                <i class="fa-sharp fa-solid fa-play" size="5"></i>
+
+                              </div>
+                          </p>
+                         </section>  
+                      </div>
+                  </a>
+                </section> 
+            </div>
+        </div>
+     </div>
+
+
+    <!-- Popular location -->
+
+    <div class="div2">
+        <div class="popular">
+             <p class="para4">
+                Popular localities in and around Bhopal
+             </p>
+        </div>
+        <div class="location-box">
+            
+            <div class="Name"> 
+                <a href="">
+                    <div class="location-name">
+                        <div class="boxes">
+                             <h5>
+                             Maharana Pratap Nagar
+                             </h5>
+
+                             <p class="popular-place">
+                             324 places
+                             </p>
+                        </div>
+                            <i class="fa-sharp fa-solid fa-greater-than"></i>
+                           
+                    </div>
+                            
+                             
+                </a>
+            </div>
+            <div class="Name"> 
+                <a href="">
+                    <div class="location-name">
+                        <div class="boxes">
+                             <h5>TT Nagar</h5>
+                             
+                             <p class="popular-place">210 places</p>
+                             </div>
+                             <i class="fa-sharp fa-solid fa-greater-than"></i>
+                            
+                             
+                             
+                        </div>
+                    </a>
+            </div> 
+            <div class="Name"> 
+                    <a href="">
+                        <div class="location-name">
+                            <div class="boxes">
+                             <h5>Arera Colony</h5>
+                            
+                             <p class="popular-place">191 places</p>
+                             </div>
+                             <i class="fa-sharp fa-solid fa-greater-than"></i>
+                            
+                             
+                             
+                        </div>
+                    </a>
+            </div> 
+            <div class="Name"> 
+                    <a href="">
+                        <div class="location-name">
+                            <div class="boxes">
+                             <h5>Gulmohar Colony</h5>
+                             
+                             <p class="popular-place">201 places</p>
+                             </div>
+                             <i class="fa-sharp fa-solid fa-greater-than"></i>
+                        </div>
+                    </a>
+            </div> 
+            <div class="Name"> 
+                    <a href="">
+                        <div class="location-name">
+                            <div class="boxes">
+                               <h5>Kohefiza</h5>
+                               <p class="popular-place">130 places</p>
+
+                            </div>
+                                <i class="fa-sharp fa-solid fa-greater-than"></i>
+                            
+                        </div>
+                    </a>
+            </div> 
+            <div class="Name"> 
+                    <a href="">
+                        <div class="location-name">
+                            <div class="boxes">
+                             <h5>Peer Gate Area</h5>
+
+                             <p class="popular-place">163 places</p>
+                             </div>
+                             <i class="fa-sharp fa-solid fa-greater-than"></i>
+                            
+                        </div>
+                    </a>
+            </div> 
+            <div class="Name"> 
+                    <a href="">
+                        <div class="location-name">
+                            <div class="boxes">
+                             <h5>Habib Ganj</h5>
+                             
+                             <p class="popular-place">75 places</p>
+                             </div>
+                             <i class="fa-sharp fa-solid fa-greater-than"></i>
+                            
+                        </div>
+                    </a>
+            </div>
+            <div class="Name"> 
+                    <a href="">
+                        <div class="location-name">
+                            <div class="boxes">
+                             <h5>BHEL</h5>
+                            
+                             <p class="popular-place">333 places</p>
+                             </div>
+                             <i class="fa-sharp fa-solid fa-greater-than"></i>
+                        </div>
+                    </a>
+            </div> 
+            <div class="Name"> 
+                    <a href="">
+                        <div class="location-name">
+                            <div class="boxes">
+                             <h5>JP Nagar</h5>
+                             
+                             <p class="popular-place">122 places</p>
+                             </div>
+                             <i class="fa-sharp fa-solid fa-greater-than"></i>
+                        </div>
+                    </a>
+            </div>
+           
+
+            
+        </div>
+    </div>
+
+      <!-- Zomato app -->
+
+
+    <div id="get-app"  class="div3">
+        <div class="zomato">
+            <div class="mobile">
+                <div class="image-box">
+                   <img  class="mobile-pic"  src="https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png" alt="">
+                </div>
+
+            </div>
+            <div class="download">
+               <h1 class="h1"> Get the Zomato app</h1>
+               <p class="choice">We will send you a link, open it on your phone to download the app
+
+               </p>
+                 <section class="choice-section">
+                    
+                    <input class="choice-option" type="radio" id="email" name="radio" value="email"  checked>
+                    <label for="email">Email</label>
+             
+
+                    <input   class="choice-option"   type="radio" id="phone" name="radio"  value="phone" checked >
+                    <label for="phone">phone</label>
+                 </section>
+                 <section class="email-section">
+                    <input type="email"  name="email" value="Email" checked >
+                    
+                    <button class="button" role="button">Share App Link</button>
+ 
+                 </section>
+                 <p class="download-app">Download app from</p>
+                 <div>
+                    <a href="https://www.bing.com/ck/a?!&&p=7514734550f47402JmltdHM9MTY3MDcxNjgwMCZpZ3VpZD0zYjU0ZGY2Mi1lZTViLTY0NmQtMTg1NS1jZTk2ZWZhYzY1NjEmaW5zaWQ9NTQ5MQ&ptn=3&hsh=3&fclid=3b54df62-ee5b-646d-1855-ce96efac6561&psq=play+store+link&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcz9nbD11cw&ntb=1">
+                        <img  class="play-store"  src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+                    </a> 
+                    
+                 </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <footer class="footer">
+       <section class="footer-section">
+             <h1 class="footer-heading">
+                zomato
+            </h1>
+            <section class="country">
+                <div class="country-div">
+                     <label for=""></label>
+                     <span></span>
+                </div>
+           </section>
+       </section>
+        <div class="footer-box">
+             <div class="footer-content">
+                 <h4 class="about">ABOUT ZOMATO</h4>
+                 <nav class="footer-nav">
+                    <a class="footer-a"  href=""><h6 class="footer-h6" >Who We Are</h6></a>
+                    <a class="footer-a"  href=""><h6 class="footer-h6"> Blog</h6></a>
+                    <a class="footer-a" href=""><h6 class="footer-h6">Work With Us</h6></a>
+                    <a class="footer-a" href=""><h6 class="footer-h6"> Investor Relations</h6></a>
+                    <a class="footer-a" href=""><h6 class="footer-h6"> Report Fraud</h6></a>
+                    <a class="footer-a" href=""><h6 class="footer-h6">Contact Us</h6></a>
+                 </nav>
+             </div>
+             <div class="footer-content">
+                <h4 class="about">ZOMAVERSE</h4>
+                <nav class="footer-nav">
+                   <a class="footer-a" href=""><h6 class="footer-h6">Zomato</h6></a> 
+                   <a class="footer-a" href=""><h6 class="footer-h6">Blinkit</h6></a>
+                   <a class="footer-a" href=""><h6 class="footer-h6">Feeding India</h6></a>
+                   <a  class="footer-a" href=""><h6 class="footer-h6">Hyperpure</h6></a>
+                   <a class="footer-a" href=""><h6 class="footer-h6">Zomaland</h6></a>  
+                </nav>
+             </div>
+             <div class="footer-content">
+                <h4 class="about">FOR RESTAURANTS</h4>
+                <nav class="footer-nav">
+                    <a class="footer-a" href=""><h6 class="footer-h6">Partner With Us</h6></a>
+                    <a class="footer-a" href=""><h6 class="footer-h6">Apps For You</h6></a>
+                    <h4 class="about">FOR ENTERPRISES</h4>
+                    <a class="footer-a" href=""><h6 class="footer-h6">Zomato For Work</h6></a>
+                    
+                </nav>
+             </div>
+             <div class="footer-content">
+                <h4 class="about">LEARN MORE
+                </h4>
+                <nav class="footer-nav">
+                    <a class="footer-a" href=""><h6 class="footer-h6">Privacy</h6></a>
+                    <a class="footer-a" href=""><h6 class="footer-h6">Security</h6></a>
+                    <a class="footer-a" href=""><h6 class="footer-h6"> Terms</h6></a>
+                    <a class="footer-a" href=""><h6 class="footer-h6">Sitemap</h6></a>
+                </nav>
+             </div>
+             <div class="footer-content">
+                <h4 class="about">SOCIAL LINKS
+                </h4>
+                <nav class="social-links">
+                    <div>
+                        <ul>
+                             <li class="list">
+                                <a  href="https://www.bing.com/ck/a?!&&p=8185b49aa297c58aJmltdHM9MTY3MDcxNjgwMCZpZ3VpZD0zYjU0ZGY2Mi1lZTViLTY0NmQtMTg1NS1jZTk2ZWZhYzY1NjEmaW5zaWQ9NTYyNg&ptn=3&hsh=3&fclid=3b54df62-ee5b-646d-1855-ce96efac6561&psq=linkedin&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9MaW5rZWRJbg&ntb=1">
+                                    <span class="color-twitter">
+                                        <i class="fa-brands fa-square-twitter size" ></i>
+                                  </span>
+                                </a>
+
+
+                            </li>
+                            <li class="list">
+                                <a href="https://www.bing.com/ck/a?!&&p=160cfb3705f4a1edJmltdHM9MTY3MDcxNjgwMCZpZ3VpZD0zYjU0ZGY2Mi1lZTViLTY0NmQtMTg1NS1jZTk2ZWZhYzY1NjEmaW5zaWQ9NTYyOQ&ptn=3&hsh=3&fclid=3b54df62-ee5b-646d-1855-ce96efac6561&psq=linkedin&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0xpbmtlZEluLw&ntb=1">
+                                    <span class="color-facebook">
+                                        <i class="fa-brands fa-facebook size"></i>
+                                    </span>
+                             
+                                </a>
+                               
+                            </li>
+                            <li  class="list">
+                                <a href="https://www.bing.com/ck/a?!&&p=458f1dd2f1f34a60JmltdHM9MTY3MDcxNjgwMCZpZ3VpZD0zYjU0ZGY2Mi1lZTViLTY0NmQtMTg1NS1jZTk2ZWZhYzY1NjEmaW5zaWQ9NTYyMw&ptn=3&hsh=3&fclid=3b54df62-ee5b-646d-1855-ce96efac6561&psq=linkedin&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2NvbXBhbnkvbGlua2VkaW4&ntb=1">
+                                    <span class="color-linkdin">
+                                        <i class="fa-brands fa-linkedin  size"></i>
+                                    </span>
+                                 </a>
+                                
+                                
+                            </li>
+                            <li  class="list">
+                                <a href="https://www.bing.com/ck/a?!&&p=58ae6c2e44e1b252JmltdHM9MTY3MDcxNjgwMCZpZ3VpZD0zYjU0ZGY2Mi1lZTViLTY0NmQtMTg1NS1jZTk2ZWZhYzY1NjEmaW5zaWQ9NTYzNQ&ptn=3&hsh=3&fclid=3b54df62-ee5b-646d-1855-ce96efac6561&psq=linkedin&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9saW5rZWRpbi8&ntb=1">
+                                    <span class="color-instagram">
+                                        <i class="fa-brands fa-square-instagram size"></i>
+                                    </span>
+                                     
+                                </a>
+                            </li>
+                            <li  class="list">
+                                <a href="https://www.bing.com/ck/a?!&&p=18183dc069765530JmltdHM9MTY3MDcxNjgwMCZpZ3VpZD0zYjU0ZGY2Mi1lZTViLTY0NmQtMTg1NS1jZTk2ZWZhYzY1NjEmaW5zaWQ9NTYzMA&ptn=3&hsh=3&fclid=3b54df62-ee5b-646d-1855-ce96efac6561&psq=linkedin&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ0t6N3plT09wdkF5NXFzN3NDeTdRaEE&ntb=1">
+                                     <span class="color-youtube">
+                                        <i class="fa-brands fa-square-youtube size"></i>
+                                
+                                     </span>
+                                 </a>
+                           </li> 
+                            
+                        </ul>
+                        <div>
+                            
+                            <a href="https://www.bing.com/ck/a?!&&p=7514734550f47402JmltdHM9MTY3MDcxNjgwMCZpZ3VpZD0zYjU0ZGY2Mi1lZTViLTY0NmQtMTg1NS1jZTk2ZWZhYzY1NjEmaW5zaWQ9NTQ5MQ&ptn=3&hsh=3&fclid=3b54df62-ee5b-646d-1855-ce96efac6561&psq=play+store+link&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcz9nbD11cw&ntb=1">
+                                <img  class="store"  src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+                            </a> 
+                            
+                         </div>
+                    </div>
+                </nav>
+             </div>
+        </div>
+       <hr>
+       <p class="last-para"> By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.</p>
+     
+
+
+    </footer>
+
+  <script src="./index.js"></script>
+
+
+
+
+
+</body>
+</html>

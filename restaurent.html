@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./restarent.css">
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous" ></script>
+     
+    <title>FOOD</title>
+</head>
+<body>
+    <header class="header">
+      <nav class="navbar-content">
+          <div class="logo">
+              <h1 class="heading">zomato</h1>
+              <p class=" heading p">for business</p>
+          </div>  
+          <div class="content">
+               <ul class="list">
+                  <li id="login"  class="li list1"><a href="">Login</a></li>
+                  <li id="signup" class="li list2"><a href="">Create Account</a></li>
+               </ul>
+           </div>
+           
+
+            <div id="loginPage" class="login-design">
+                <div class="back">
+                    <i class="fa-sharp fa-solid fa-xmark close" id="close-btn"></i>
+                </div>
+                <h1 class="login-heading">Login</h1>
+                <input id="userEmail"  class="enter-email"  type="text" name="Email" placeholder="Email" checked>
+                <button id="btnsubmit"  class="button-24" role="button">Send One Time Password</button>
+                <p class="other">or</p>
+                <div class="other-box">
+                   <a href="">
+                      <span class="color-email">
+                         <i class="fa-solid fa-envelope close"></i>
+                      </span> 
+                       <p class="message">Continue with Email</p>
+                   </a>
+                </div>
+                <div class="other-box">
+                  <a class="google" href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Faccounts.zomato.com%3Fid%3Dauth942134&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=442739719837.apps.googleusercontent.com&ss_domain=https%3A%2F%2Faccounts.zomato.com&prompt=select_account&fetch_basic_profile=true&gsiwebsdk=2&service=lso&o2v=1&flowName=GeneralOAuthFlow">
+                     <img  class="google-icon" src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="">
+                     <p class="message">Continue with Google</p>
+                  </a>
+                </div>
+                <h6 class="new">New to Zomato ?</h6>
+                <a class="create-account" href="">Create account</a> 
+             
+            </div>
+           
+                <div id="signupPage" class="signup-design">
+                    <div class="return">
+                        <i class="fa-sharp fa-solid fa-xmark close-icon" id="close-page"></i>
+                    </div>
+                    <h1 class="sign-up">Sign up</h1>
+                    <div class="input-div">
+                        <input id="fullname" class=" input1" type="text" name="Name" placeholder="Full- Name" required>
+                        <input id="Email" class=" input1"  type="text" name="Email" placeholder="Email" checked>
+                    </div>
+                    <div class="checked">
+                        <input id="checked" class="checkbox" type="checkbox">
+                        <span class="checkbox-content">
+                            I agree to Zomato's <a class="color"  href="">Terms of Service, Privacy Policy</a>and <a class="color" href=""> Content Policies</a>
+                        </span>
+                    </div>
+                     <button  id="btn" class="button-24 btn" role="button">Create account</button>
+                     <p class="other">or</p>
+                    <div class="other-box set">
+                         <a class="google icon" href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Faccounts.zomato.com%3Fid%3Dauth942134&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=442739719837.apps.googleusercontent.com&ss_domain=https%3A%2F%2Faccounts.zomato.com&prompt=select_account&fetch_basic_profile=true&gsiwebsdk=2&service=lso&o2v=1&flowName=GeneralOAuthFlow">
+                            <img  class="google-icon" src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="">
+                            <p class="message">Continue with Google</p>
+                         </a>
+                    </div>
+                     <h6 class="account">Already have an account ?</h6>
+                     <a class="already-account" href="">Log in</a>
+                    
+                </div>
+           
+              
+
+       
+
+      </nav>
+      <h1 class="ragister">Register your restaurant on Zomato</h1>
+      <p class="para">and get more customers!</p>
+
+      <button   class="button-65" role="button">Ragister your restaurant</button>
+      <button class="button-65" role="button">Restaurant already listed? login now</button>
+
+   </header>
+   <div id="empty"></div>
+   <div class="div1">
+     <h1 class="heading1">Get started with online ordering</h1>
+     <p class="para1">Please keep the documents ready for a smooth signup
+    </p>
+     <div class="list-container">
+        <ul class="ul">
+            <li class="lists">
+                <i class="fa-sharp fa-solid fa-circle-check size"></i>FSSAI license copy
+            </li> 
+            <li class="lists" >
+                <i class="fa-sharp fa-solid fa-circle-check size"></i>PAN card copy
+                
+            </li> 
+            <li class="lists">
+                <i class="fa-sharp fa-solid fa-circle-check size"></i>GSTIN (if applicable)
+            </li> 
+            <li class="lists">
+                <i class="fa-sharp fa-solid fa-circle-check size"></i>Bank account details
+            </li> 
+            <li class="lists">
+                <i class="fa-sharp fa-solid fa-circle-check size"></i>Your restaurant menu
+                
+            </li> 
+            <li class="lists">
+                <i class="fa-sharp fa-solid fa-circle-check size"></i>Dish images for top 5 items
+            </li> 
+        </ul>
+     </div>
+   </div>
+   <script src="./restaurent.js"></script>
+    
+</body>
+</html>
